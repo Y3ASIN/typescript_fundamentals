@@ -1,0 +1,10 @@
+// let userId : number[];
+var userId;
+userId = [80, 90, 30, 40, 70];
+userId.push(100);
+userId.sort(function (a, b) { return a - b; });
+console.log(userId);
+// let multiTypeArray: (number | string)[];
+var multiTypeArray;
+multiTypeArray = ["multi", 1, false];
+console.log(multiTypeArray);
