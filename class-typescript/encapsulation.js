@@ -42,6 +42,7 @@ var CSE = /** @class */ (function (_super) {
     };
     return CSE;
 }(Department));
+
 // class object
 var cseDepartment = new CSE("Computer Science & Engineering", 15, "Software based");
 cseDepartment.setCoreCourse("Hardware based");
